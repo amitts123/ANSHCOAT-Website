@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANSHCOAT - Tablet Coating Materials | Coat Every Tablet With Confidence</title>
+  <meta name="description" content="Professional tablet coating materials backed by 5 assurances. FDA-approved facility, 24/7 support, 1-week lead time. Aqueous, enteric, and barrier coating systems.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-content">
+        <div class="contact-info">
+          <span><i class="fas fa-phone"></i> +91-9898650649</span>
+          <span><i class="fas fa-envelope"></i> info@anshcoat.com</span>
+        </div>
+        <div class="top-bar-actions">
+          <a href="#contact" class="top-link">FDA-Approved Facility</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <div class="logo">
+          <img src="assets/images/anshcoat-logo.png" alt="ANSHCOAT Logo" class="logo-img" />
+        </div>
+        
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+            <li class="nav-dropdown">
+              <a href="#about" class="nav-link" data-page="about">About <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#about" data-section="story">Our Story</a></li>
+                <li><a href="#about" data-section="vision">Vision &amp; Mission</a></li>
+                <li><a href="#about" data-section="leadership">Leadership</a></li>
+                <li><a href="#about" data-section="facility">Facility</a></li>
+              </ul>
+            </li>
+            <li class="nav-dropdown mega-menu-parent">
+              <a href="#products" class="nav-link" data-page="products">Products <i class="fas fa-chevron-down"></i></a>
+              <div class="mega-menu">
+                <div class="mega-menu-content">
+                  <div class="mega-menu-column">
+                    <h4>Aqueous Film Coatings</h4>
+                    <ul>
+                      <li><a href="#products-aqueous" data-product="aqua">ANSHCOAT AQUA</a></li>
+                      <li><a href="#products-aqueous" data-product="aqua-2.5l">AQUA 2.5L</a></li>
+                      <li><a href="#products-aqueous" data-product="aqua-5l">AQUA 5L</a></li>
+                      <li><a href="#products-aqueous" data-product="aqua-6l">AQUA 6L</a></li>
+                      <li><a href="#products-aqueous" data-product="aqua-7l">AQUA 7L</a></li>
+                      <li><a href="#products-aqueous" data-product="aqua-8l">AQUA 8L</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Solvent &amp; Universal</h4>
+                    <ul>
+                      <li><a href="#products-solvent" data-product="organic">ORGANIC</a></li>
+                      <li><a href="#products-solvent" data-product="universal">UNIVERSAL</a></li>
+                      <li><a href="#products-solvent" data-product="protect-organic">PROTECT ORGANIC</a></li>
+                      <li><a href="#products-solvent" data-product="protect-aqua">PROTECT AQUA</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Enteric Coatings</h4>
+                    <ul>
+                      <li><a href="#products-enteric" data-product="ent-aqua">ENT AQUA</a></li>
+                      <li><a href="#products-enteric" data-product="ent-organic">ENT ORGANIC</a></li>
+                      <li><a href="#products-enteric" data-product="ent-pro">ENT PRO</a></li>
+                      <li><a href="#products-enteric" data-product="ent-advance">ENT ADVANCE</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h4>Special Products</h4>
+                    <ul>
+                      <li><a href="#products-special" data-product="tio2-free">TiO₂-Free Systems</a></li>
+                      <li><a href="#products-special" data-product="metallic">Metallic/Pearl Shades</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-dropdown">
+              <a href="#solutions" class="nav-link" data-page="solutions">Solutions <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#solutions" data-challenge="enteric">Enteric Dissolution Failures</a></li>
+                <li><a href="#solutions" data-challenge="bulging">Bulging &amp; Gas Formation</a></li>
+                <li><a href="#solutions" data-challenge="rough">Rough Film / Orange Peel</a></li>
+                <li><a href="#solutions" data-challenge="dots">Color Dots &amp; Specks</a></li>
+                <li><a href="#solutions" data-challenge="uneven">Uneven Coating</a></li>
+              </ul>
+            </li>
+            <li><a href="#quality" class="nav-link" data-page="quality">Quality &amp; Regulatory</a></li>
+            <li><a href="#support" class="nav-link" data-page="support">Technical Support</a></li>
+            <li><a href="#knowledge" class="nav-link" data-page="knowledge">Knowledge Center</a></li>
+            <li><a href="#resources" class="nav-link" data-page="resources">Resources</a></li>
+            <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+          </ul>
+          
+          <div class="nav-cta">
+            <button class="btn btn--secondary btn--sm" onclick="openModal('sampleModal')">Request Samples</button>
+            <button class="btn btn--primary btn--sm" href="assets/docs/ANSHCOAT_Product_Catalogue.pdf" target="_blank" download>Download Catalogue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main id="mainContent"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>ANSHCOAT</h3>
+          <p class="footer-tagline">Coat Every Tablet With Confidence</p>
+          <p>5 Assurances for Your Peace of Mind.</p>
+          <div class="footer-certifications">
+            <span class="badge"><i class="fas fa-certificate"></i> FDA-Approved</span>
+            <span class="badge"><i class="fas fa-shield-alt"></i> GMP Certified</span>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#quality">Quality &amp; Regulatory</a></li>
+            <li><a href="#support">Technical Support</a></li>
+            <li><a href="#knowledge">Knowledge Center</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#products-aqueous">Aqueous Film Coatings</a></li>
+            <li><a href="#products-solvent">Solvent &amp; Universal</a></li>
+            <li><a href="#products-enteric">Enteric Coatings</a></li>
+            <li><a href="#products-special">Special Products</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-building"></i> Ansh Pharma Ingredients LLP</li>
+            <li><i class="fas fa-map-marker-alt"></i> Vapi, Gujarat, India</li>
+            <li><i class="fas fa-phone"></i> +91-9898650649</li>
+            <li><i class="fas fa-phone"></i> +91-7041754931</li>
+            <li><i class="fas fa-envelope"></i> info@anshcoat.com</li>
+            <li><i class="fas fa-globe"></i> www.anshcoat.com</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ansh Pharma Ingredients LLP. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sample Request Modal -->
+  <div id="sampleModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('sampleModal')">&times;</span>
+      <h2>Request Free Samples</h2>
+      <p class="modal-subtitle">Get started with ANSHCOAT - samples delivered within 1 week</p>
+      
+      <form id="sampleForm" class="multi-step-form">
+        <div class="form-progress">
+          <div class="progress-step active" data-step="1">1. Your Info</div>
+          <div class="progress-step" data-step="2">2. Your Project</div>
+          <div class="progress-step" data-step="3">3. Sample Needs</div>
+        </div>
+        
+        <div class="form-step active" data-step="1">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-control" name="name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Company *</label>
+            <input type="text" class="form-control" name="company" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email *</label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone *</label>
+            <input type="tel" class="form-control" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Country *</label>
+            <input type="text" class="form-control" name="country" required>
+          </div>
+          <button type="button" class="btn btn--primary" onclick="nextStep(2)">Next Step <i class="fas fa-arrow-right"></i></button>
+        </div>
+        
+        <div class="form-step" data-step="2">
+          <div class="form-group">
+            <label class="form-label">Application Type *</label>
+            <select class="form-control" name="application" required>
+              <option value="">Select application type</option>
+              <option value="film">Film Coating</option>
+              <option value="enteric">Enteric Coating</option>
+              <option value="barrier">Moisture Barrier</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">API Sensitivity</label>
+            <select class="form-control" name="sensitivity">
+              <option value="">Select sensitivity</option>
+              <option value="moisture">Moisture Sensitive</option>
+              <option value="heat">Heat Sensitive</option>
+              <option value="acid">Acid Labile</option>
+              <option value="none">No Special Sensitivity</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Core Characteristics</label>
+            <textarea class="form-control" name="core" rows="3" placeholder="Core size, shape, hardness, etc."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Production Scale *</label>
+            <select class="form-control" name="scale" required>
+              <option value="">Select scale</option>
+              <option value="lab">Lab Scale</option>
+              <option value="pilot">Pilot Scale</option>
+              <option value="commercial">Commercial Scale</option>
+            </select>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn btn--secondary" onclick="prevStep(1)"><i class="fas fa-arrow-left"></i> Previous</button>
+            <button type="button" class="btn btn--primary" onclick="nextStep(3)">Next Step <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        
+        <div class="form-step" data-step="3">
+          <div class="form-group">
+            <label class="form-label">Products of Interest *</label>
+            <div class="checkbox-grid">
+              <label><input type="checkbox" name="products" value="aqua"> AQUA Series</label>
+              <label><input type="checkbox" name="products" value="organic"> Organic/Solvent</label>
+              <label><input type="checkbox" name="products" value="enteric"> Enteric Coatings</label>
+              <label><input type="checkbox" name="products" value="barrier"> Moisture Barrier</label>
+              <label><input type="checkbox" name="products" value="special"> Special Products</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Sample Quantity Needed</label>
+            <input type="text" class="form-control" name="quantity" placeholder="e.g., 1 kg per product">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Timeline *</label>
+            <select class="form-control" name="timeline" required>
+              <option value="">When do you need samples?</option>
+              <option value="urgent">Urgent (within 1 week)</option>
+              <option value="normal">Normal (2-3 weeks)</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Additional Notes / Specific Challenges</label>
+            <textarea class="form-control" name="notes" rows="4" placeholder="Tell us about any specific coating challenges you're facing..."></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn btn--secondary" onclick="prevStep(2)"><i class="fas fa-arrow-left"></i> Previous</button>
+            <button type="submit" class="btn btn--primary"><i class="fas fa-paper-plane"></i> Submit Request</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Catalogue Download Modal -->
+  <div id="catalogueModal" class="modal">
+    <div class="modal-content modal-small">
+      <span class="modal-close" onclick="closeModal('catalogueModal')">&times;</span>
+      <h2>Download Product Catalogue</h2>
+      <p class="modal-subtitle">Complete ANSHCOAT product information at your fingertips</p>
+      
+      <form id="catalogueForm">
+        <div class="form-group">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-control" name="name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Company Email *</label>
+          <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Company *</label>
+          <input type="text" class="form-control" name="company" required>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full-width"><i class="fas fa-download"></i> Download Catalogue (PDF)</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Expert Consultation Modal -->
+  <div id="expertModal" class="modal">
+    <div class="modal-content modal-small">
+      <span class="modal-close" onclick="closeModal('expertModal')">&times;</span>
+      <h2>Talk to a Coating Expert</h2>
+      <p class="modal-subtitle">Schedule a free consultation with our technical team</p>
+      
+      <form id="expertForm">
+        <div class="form-group">
+          <label class="form-label">Full Name *</label>
+          <input type="text" class="form-control" name="name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email *</label>
+          <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone *</label>
+          <input type="tel" class="form-control" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Preferred Date</label>
+          <input type="date" class="form-control" name="date">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Brief Description of Challenge</label>
+          <textarea class="form-control" name="challenge" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full-width"><i class="fas fa-calendar-check"></i> Schedule Consultation</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+
+<!-- Start of Tawk.to Script -->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6970a671f57417197c197f4c/1jfg0kauh';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!-- End of Tawk.to Script -->
+
+</body>
+</html>
